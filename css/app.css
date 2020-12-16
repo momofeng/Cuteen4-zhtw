@@ -1,15 +1,11 @@
 :root{
     --radius:6px;
-    --bs-font-sans-serif:","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-sans-serif:"jf-jinxuan","Roman-55",system-ui,-apple-system,"Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
-/*
-    --bs-font-sans-serif:"jx","Roman-55",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}*/
 @font-face {
-    font-family: 'jf-jinxuan';
-/**	font-family: 'Roman-55';
+	font-family: "jf-jinxuan","Roman-55";
 	src: url('../font/NeueHaasGrotTextRound-55Roman.woff2'); 
-   }**/
+   }
 body{
     font-family: var(--bs-font-sans-serif);
 }
