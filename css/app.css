@@ -1092,6 +1092,10 @@ display: inline-flex;
     visibility: hidden;
     z-index:-1
 }
+#post p {
+    font-weight: 300;
+}
+
 #post h1 {
     font-weight: 900;
     font-size: 2rem;
