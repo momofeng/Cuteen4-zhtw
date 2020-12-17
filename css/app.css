@@ -933,8 +933,8 @@ code::-webkit-scrollbar{
     color: var(--bs-primary);
 }
 #post{
-    line-height: 2.3rem;
-    letter-spacing: .3px;
+    line-height: 1.8rem;
+    letter-spacing: 1.3px;
     font-family: var(--bs-font-sans-serif);
 }
 #post img{
@@ -2070,7 +2070,7 @@ ul.timeline  li:before {
         width: 30px;
     }
     .post-ctx, .post-comment{
-        padding: 1rem;
+        padding: 6rem;
     }
     #content:not(.cardMode){
         padding-right: 0;
