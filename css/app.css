@@ -1093,6 +1093,7 @@ display: inline-flex;
     z-index:-1
 }
 #post h1 {
+    font-weight: 900;
     font-size: 2rem;
     margin-bottom: .58rem;
     margin-top: .58rem;
@@ -1100,6 +1101,7 @@ display: inline-flex;
 }
 
 #post h2 {
+    font-weight: 800;
     font-size: 1.6rem;
     margin-bottom: .875rem;
     margin-top: 1.75rem;
@@ -1107,24 +1109,28 @@ display: inline-flex;
 }
 
 #post h3 {
+    font-weight: 800;
     font-size: 1.3rem;
     margin-bottom: 1.07692rem;
     margin-top: 1.07692rem
 }
 
 #post h4 {
+    font-weight: 700;
     font-size: 1.2rem;
     margin-bottom: 1.16667rem;
     margin-top: 1.16667rem
 }
 
 #post h5 {
+    font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 1.27273rem;
     margin-top: 1.27273rem
 }
 
 #post h6 {
+    font-weight: 700;
     font-size: 1rem;
     margin-bottom: 1.4rem;
     margin-top: 1.4rem
