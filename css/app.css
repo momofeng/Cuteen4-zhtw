@@ -909,7 +909,7 @@ code::-webkit-scrollbar{
     min-height: 10rem;
     border-radius: var(--radius);
     color: var(--bs-dark);
-    padding: 2rem;
+    padding: 3rem;
     word-break: break-all;
 }
 .post-noimg-nav .post-info{
@@ -2076,7 +2076,7 @@ ul.timeline  li:before {
         width: 30px;
     }
     .post-ctx, .post-comment{
-        padding: 6rem;
+        padding: 1rem;
     }
     #content:not(.cardMode){
         padding-right: 0;
@@ -2197,8 +2197,10 @@ ul.timeline  li:before {
 
     .article.have-img .article-img img {
         border-radius: var(--radius);
+	/*
         width: 80px;
         height: 80px;
+	*/
     }
     #NextButton{
         width: auto;
