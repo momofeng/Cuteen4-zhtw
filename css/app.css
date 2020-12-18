@@ -1103,6 +1103,7 @@ display: inline-flex;
 }
 #post p {
     font-weight: 400;
+    font-family: 'xingothic-tc';
 }
 
 #post h1 {
@@ -1165,7 +1166,7 @@ display: inline-flex;
 
 #post th:not(.hljs-ln-line), #post td:not(.hljs-ln-line) {
     font-size: 1em;
-    padding: .7em;
+    padding: .5em;
     border: 1px solid #e6e6e6;
     line-height: 1.4
 }
