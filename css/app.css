@@ -2097,11 +2097,21 @@ ul.timeline  li:before {
     .post-ctx, .post-comment{
         padding: 1rem;
     }
+
     #content:not(.cardMode){
         padding-right: 0;
         padding-left: 0;
         min-height: unset;
+	display:inline-table!important;
     }
+
+    .article.have-img .article-img{
+        width:96%;
+    }
+    .article.have-img .article-ctx {
+        width:100%;
+    }
+	
     .comment-system{
         margin: 0 5px;
         padding:0;
