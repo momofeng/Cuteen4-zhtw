@@ -2078,6 +2078,7 @@ ul.timeline  li:before {
         background-color: var(--bs-white);
         color: var(--bs-dark);
         margin-bottom: 1rem;
+	display:inline-table!important;
     }
     [data-bgimg=no] {
         margin-top: 5rem;
@@ -2102,7 +2103,6 @@ ul.timeline  li:before {
         padding-right: 0;
         padding-left: 0;
         min-height: unset;
-	display:inline-table!important;
     }
 
     .article.have-img .article-img{
